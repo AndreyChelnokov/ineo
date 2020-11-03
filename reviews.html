@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- browser settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- open graph -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="://absolute/path/to/image.jpg" />
+    <meta property="og:type" content="website" /> <!-- or "article" -->
+    <meta property="og:url" content="://absolute/path/to/this/page/" />
+    <!-- seo -->
+    <link rel="canonical" href="://absolute/path/to/this/page/">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+    <!-- conditions -->
+    <!--[if IE]><link href="ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>СИНЕЭ</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage" role="document">
+    
+
+    <header class="header header-page header-about" style="background-image: url(img/header-page.jpg);">
+        
+            <div class="header__mob-wrap">
+                <div class="container header__header">
+                    <div class="header__top">
+                        <div class="header__logo logo">
+                            <img class="logo_images" src="img/logo.png" alt="">
+                            <div class="logo__text">
+                                <img class="logo-desctop" src="img/logo_text.svg" alt="">
+                                <img src="img/logo-mini.svg" alt="" class="logo-mini">
+                            </div>
+                        </div>
+            
+                        <div class="header__tools tools">
+                            <div class="header__menu-btn menu-btn header__tools-item">
+                                <span></span>
+                            </div>
+                            <div class="tools__siti tools__item header__tools-item select-js">
+                                <div class="tools__text">Санкт-Петербург</div>
+                                <div class="tools__arr">
+                                    <img src="img/arrow.svg" >
+                                </div>
+            
+                                <div class="tools__sub-items select-sub-js">
+                                    <div class="main-input tools__sub-item">
+                                        <div class="tools__text">Россия</div>
+                                        <div class="tools__arr">
+                                            <img src="img/arrow.svg" >
+                                        </div>
+                                    </div>
+                                    <div class="main-input tools__sub-item">
+                                        <div class="tools__text">Москва</div>
+                                        <div class="tools__arr">
+                                            <img src="img/arrow.svg" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tools__search tools__item search-header-js">
+                                <input type="text" class="no-visible">
+                                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.88888 19.0756C14.7981 19.0756 18.7778 15.0959 18.7778 10.1867C18.7778 5.27754 14.7981 1.29785 9.88888 1.29785C4.97969 1.29785 1 5.27754 1 10.1867C1 15.0959 4.97969 19.0756 9.88888 19.0756Z" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21 21.2977L16.1666 16.4644" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+            
+                            <input class="main-input tools__input-search" placeholder="Судебная экспертиза">
+                        </div>
+            
+                        <div class="header__contacts">
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">+7 (812) 340-00-35</a>
+                                <div class="contact-block__content">
+                                    Санкт-Петербург Пн-пт 9:00 до 18:30
+                                </div> 
+                            </div>
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">+7 (800) 222-53-04</a>
+                                <div class="contact-block__content">
+                                    По России <br> Пн-пт 7:00 до 21:00
+                                </div>
+                            </div>
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">info@inexpert.ru</a>
+                                <div class="contact-block__content">
+                                    Электронная почта <br> 24/7
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav header__nav">
+                    <div class="container nav__container">
+                        <div class="cloze nav__cloze">
+                            <span></span>
+                        </div>
+                        <ul class="nav__list header__nav-list">
+                            <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Новости</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Лицензии</a></li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Услуги
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.28662 5.29785L5.28662 1.29785L9.28662 5.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.28662 9.29785V1.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <ul class="nav__sub-list">
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Строительно-техническая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Стоматологическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психологическая экспертиза (педагогическая)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психиатрическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Судебно-медицинская экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза качества медицинской помощи</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психофизиологическая экспертиза (полиграф)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза автомобиля после дтп</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Транспортная экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Лингвистическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Почерковедческая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Пожарно-техническая экспертиза</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item"><a class="nav__link" href="#">
+                                    Организации
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.28662 5.29785L5.28662 1.29785L9.28662 5.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.28662 9.29785V1.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <ul class="nav__sub-list">
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Строительно-техническая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Стоматологическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психологическая экспертиза (педагогическая)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психиатрическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Судебно-медицинская экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза качества медицинской помощи</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психофизиологическая экспертиза (полиграф)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза автомобиля после дтп</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Транспортная экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Лингвистическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Почерковедческая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Пожарно-техническая экспертиза</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item"><a class="nav__link" href="#">Прайс</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                        </ul>
+                        <div class="nav__activ activ-menu">
+                            <div class="activ-menu__content">
+                                <div class="activ-menu__item activ-menu__top">
+                                    <div class="activ-menu__left"></div>
+                                    <div class="activ-menu__cercle"></div>
+                                    <div class="activ-menu__right"></div>
+                                </div>
+                                <div class="activ-menu__item activ-menu__bottom">
+                                    <div class="activ-menu__left"></div>
+                                    <div class="activ-menu__cercle"></div>
+                                    <div class="activ-menu__right"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="bread">
+                <div class="container bread__container">
+                    <a class="bread__item" href="#">Главная</a>
+                    <span>></span>
+                    <a class="bread__item" href="#" aria-disabled="true" >Текущая страница</a>
+                </div>
+            </div>
+        <section class="reviews-content">
+            <div class="container">
+                <h1 class="main-titl reviews-content__title">Отзывы о компании СИНЭО</h1>
+                <div class="reviews-content__content">
+                    <div class="reviews-content__slider owl-carousel" id="reviews-slider">
+                        <div class="reviews-content__item-slider">
+                            <div class="reviews-content__item main-box">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                
+                                <div class="reviews-content__item-header">
+                                    <div class="reviews-content__icon"><img src="img/rev-1.png" alt=""></div>
+                                    <div class="reviews-content__descr">
+                                        <div class="reviews-content__siti">г. Москва</div>
+                                        <div class="main-title reviews-content__name">Татьяна Иванова</div>
+                                    </div>
+                                    <div class="reviews-content__raiting raiting">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="reviews-content__text">
+                                    Нам Ск дал разрешение на повторную экспертизу.Мы рады!!!!<br>
+                                    В 2018 году с компанией «СИНЭО» заключили договор на проведение СМЭ.Медицинская экспертиза- это всегда сложно. Оказалось,что специалисты слабоваты либо боятся выложить все,как есть ,немного выгораживая своих коллег из других регионов .Компания будет сильна и рекомендована другим,если у нее сотрудники будут опытны и профессиональны. Вот чего то этого им и не хватило.Либо сложилось впечатление,что экспертты поверхносто знакомятся с материалами дела. Руководителям бы это учесть. Но все же, хочется сказать большое спасибо руководителю комиссии ПАНЧУК Юрию Петровичу.Нам Ск дал разрешение на повторную экспертизу.Мы рады!!!!
+                                </div>
+                            </div>
+                            <div class="reviews-content__item main-box">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                
+                                <div class="reviews-content__item-header">
+                                    <div class="reviews-content__icon"><img src="img/rev-2.png" alt=""></div>
+                                    <div class="reviews-content__descr">
+                                        <div class="reviews-content__siti">г. Москва</div>
+                                        <div class="main-title reviews-content__name">Ульяна мирная</div>
+                                    </div>
+                                    <div class="reviews-content__raiting raiting">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="reviews-content__text">
+                                    Проживаю в Челябинской области. В ноябре 2018 заказала рецензию на психологическое обследование . Очень боялась, что получив оплату обо мне забудут. Но оказалось, что это на самом деле фирма со стажем. На все свои звонки (а звонила из-за переживаний по нескольку раз в день) получала спокойные, грамотные объяснения. Мой оператор Даша постоянно была со мной на связи. Огромное спасибо. Когда получу на руки рецензию, допишу отзыв о работе психолога. Но впечатление от работы с психологом Беловым Василием Георгиевичем осталось самое приятное. Вдумчивый, компетентный сроки составления рецензии не затягивал. . В нашем регионе составление рецензии для суда оказалось просто нерешаемой проблемой. Спасибо, что есть фирмы помогающие людям в самых трудных ситуация. Я всем буду вас рекомендовать. Спасибо.
+                                </div>
+                            </div>
+                            <div class="reviews-content__item main-box">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                
+                                <div class="reviews-content__item-header">
+                                    <div class="reviews-content__icon"><img src="img/rev-3.png" alt=""></div>
+                                    <div class="reviews-content__descr">
+                                        <div class="reviews-content__siti">г. Москва</div>
+                                        <div class="main-title reviews-content__name">Антон Ильин</div>
+                                    </div>
+                                    <div class="reviews-content__raiting raiting">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="reviews-content__text">
+                                    Нам Ск дал разрешение на повторную экспертизу.Мы рады!!!! <br>
+                                    В 2018 году с компанией «СИНЭО» заключили договор на проведение СМЭ.Медицинская экспертиза- это всегда сложно. Оказалось,что специалисты слабоваты либо боятся выложить все,как есть ,немного выгораживая своих коллег из других регионов .Компания будет сильна и рекомендована другим,если у нее сотрудники будут опытны и профессиональны. Вот чего то этого им и не хватило.Либо сложилось впечатление,что экспертты поверхносто знакомятся с материалами дела. Руководителям бы это учесть. Но все же, хочется сказать большое спасибо руководителю комиссии ПАНЧУК Юрию Петровичу.Нам Ск дал разрешение на повторную экспертизу.Мы рады!!!!
+                                </div>
+                            </div>
+                            <div class="reviews-content__item main-box">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                                <img class="main-box__decor" src="img/decor-main.png" alt="">
+                
+                                <div class="reviews-content__item-header">
+                                    <div class="reviews-content__icon"><img src="img/rev-4.png" alt=""></div>
+                                    <div class="reviews-content__descr">
+                                        <div class="reviews-content__siti">г. Москва</div>
+                                        <div class="main-title reviews-content__name">Сергей Томилов</div>
+                                    </div>
+                                    <div class="reviews-content__raiting raiting">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star-active.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                        <img src="img/star.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="reviews-content__text">
+                                    В сентябре 2018г.мне пришлось обратиться в Снкт-Петербургский институт независимой экспертизы и оценки. Был приятно удивлён с момента обращения и до получения экспертного заключения атмосферой доброжелательности, внимания, желания помочь, деловитости, высоким уровнем профессионализма экспертов. Будучи сам хирургом с многолетним стажем, должен признать, что судмедэкспертиза живого лица по медицинским документам была проведена экспертами Сысоевой Натальей Николаевной и Пинчуком Юрием Петровичем на строго научной основе, крайне скрупулезно и в кратчайшие сроки! Хочу выразить чувство глубокой благодарности указанным людям, а также всем всем сотрудникам бюро! Удовлетворён результатами экспертизы, признателен! Желаю СИНЭО процветания!!! Врач-хирург Томилов С. Н.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btns licenses-slider__slider-btns">
+                    <div class="reviews-contentPrevBtn slider-btn">
+                        <img style="transform:rotate(180deg)" src="img/slider-btn.svg" alt="">
+                    </div>
+                    <a href="" class="main-btn smi__btn">все статьи в сми</a>
+                    <div class="reviews-contentNextBtn slider-btn">
+                        <img src="img/slider-btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="reviews-form">
+        <div class="container">
+            <p class="reviews-form__title main-title">оставить отзыв</p>
+            <div class="reviews-form__content">
+                <div class="reviews-form__top">
+                    <div class="reviews-form__top-item">
+                        <input type="text" name="name" placeholder="Ваше имя" id="">
+                        <input type="text" name="siti" placeholder="Ваш город" id="">
+                        <input type="text" name="mail" placeholder="Ваша почта" id="">
+                        <div class="type-input">
+                            <span>Оценить</span>
+                            <div class="reviews-form__raiting" data-rai-res="">
+                                <div class="reviews-form__raiting-item" data-rai="5">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2929 0.628519C11.6597 -0.11465 12.7195 -0.114648 13.0863 0.62852L15.9277 6.38493C16.0733 6.67977 16.3545 6.88423 16.6798 6.93179L23.0356 7.86078C23.8555 7.98062 24.1823 8.98846 23.5887 9.56662L18.9913 14.0445C18.7554 14.2742 18.6477 14.6054 18.7034 14.9299L19.7882 21.2548C19.9283 22.0717 19.0707 22.6947 18.3371 22.3089L12.6551 19.3207C12.3637 19.1675 12.0155 19.1675 11.7241 19.3207L6.04208 22.3089C5.30845 22.6947 4.4509 22.0717 4.59102 21.2548L5.67581 14.9299C5.73147 14.6054 5.62381 14.2742 5.38793 14.0445L0.790522 9.56662C0.196929 8.98846 0.523713 7.98062 1.34363 7.86078L7.69939 6.93179C8.02475 6.88423 8.30593 6.67977 8.45147 6.38493L11.2929 0.628519Z" fill="#DEEBF8"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews-form__raiting-item" data-rai="4">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2929 0.628519C11.6597 -0.11465 12.7195 -0.114648 13.0863 0.62852L15.9277 6.38493C16.0733 6.67977 16.3545 6.88423 16.6798 6.93179L23.0356 7.86078C23.8555 7.98062 24.1823 8.98846 23.5887 9.56662L18.9913 14.0445C18.7554 14.2742 18.6477 14.6054 18.7034 14.9299L19.7882 21.2548C19.9283 22.0717 19.0707 22.6947 18.3371 22.3089L12.6551 19.3207C12.3637 19.1675 12.0155 19.1675 11.7241 19.3207L6.04208 22.3089C5.30845 22.6947 4.4509 22.0717 4.59102 21.2548L5.67581 14.9299C5.73147 14.6054 5.62381 14.2742 5.38793 14.0445L0.790522 9.56662C0.196929 8.98846 0.523713 7.98062 1.34363 7.86078L7.69939 6.93179C8.02475 6.88423 8.30593 6.67977 8.45147 6.38493L11.2929 0.628519Z" fill="#DEEBF8"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews-form__raiting-item" data-rai="3">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2929 0.628519C11.6597 -0.11465 12.7195 -0.114648 13.0863 0.62852L15.9277 6.38493C16.0733 6.67977 16.3545 6.88423 16.6798 6.93179L23.0356 7.86078C23.8555 7.98062 24.1823 8.98846 23.5887 9.56662L18.9913 14.0445C18.7554 14.2742 18.6477 14.6054 18.7034 14.9299L19.7882 21.2548C19.9283 22.0717 19.0707 22.6947 18.3371 22.3089L12.6551 19.3207C12.3637 19.1675 12.0155 19.1675 11.7241 19.3207L6.04208 22.3089C5.30845 22.6947 4.4509 22.0717 4.59102 21.2548L5.67581 14.9299C5.73147 14.6054 5.62381 14.2742 5.38793 14.0445L0.790522 9.56662C0.196929 8.98846 0.523713 7.98062 1.34363 7.86078L7.69939 6.93179C8.02475 6.88423 8.30593 6.67977 8.45147 6.38493L11.2929 0.628519Z" fill="#DEEBF8"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews-form__raiting-item" data-rai="2">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2929 0.628519C11.6597 -0.11465 12.7195 -0.114648 13.0863 0.62852L15.9277 6.38493C16.0733 6.67977 16.3545 6.88423 16.6798 6.93179L23.0356 7.86078C23.8555 7.98062 24.1823 8.98846 23.5887 9.56662L18.9913 14.0445C18.7554 14.2742 18.6477 14.6054 18.7034 14.9299L19.7882 21.2548C19.9283 22.0717 19.0707 22.6947 18.3371 22.3089L12.6551 19.3207C12.3637 19.1675 12.0155 19.1675 11.7241 19.3207L6.04208 22.3089C5.30845 22.6947 4.4509 22.0717 4.59102 21.2548L5.67581 14.9299C5.73147 14.6054 5.62381 14.2742 5.38793 14.0445L0.790522 9.56662C0.196929 8.98846 0.523713 7.98062 1.34363 7.86078L7.69939 6.93179C8.02475 6.88423 8.30593 6.67977 8.45147 6.38493L11.2929 0.628519Z" fill="#DEEBF8"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews-form__raiting-item" data-rai="1">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.2929 0.628519C11.6597 -0.11465 12.7195 -0.114648 13.0863 0.62852L15.9277 6.38493C16.0733 6.67977 16.3545 6.88423 16.6798 6.93179L23.0356 7.86078C23.8555 7.98062 24.1823 8.98846 23.5887 9.56662L18.9913 14.0445C18.7554 14.2742 18.6477 14.6054 18.7034 14.9299L19.7882 21.2548C19.9283 22.0717 19.0707 22.6947 18.3371 22.3089L12.6551 19.3207C12.3637 19.1675 12.0155 19.1675 11.7241 19.3207L6.04208 22.3089C5.30845 22.6947 4.4509 22.0717 4.59102 21.2548L5.67581 14.9299C5.73147 14.6054 5.62381 14.2742 5.38793 14.0445L0.790522 9.56662C0.196929 8.98846 0.523713 7.98062 1.34363 7.86078L7.69939 6.93179C8.02475 6.88423 8.30593 6.67977 8.45147 6.38493L11.2929 0.628519Z" fill="#DEEBF8"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-form__bottom">
+                    <textarea class="" name="" id="" placeholder="Сообщение"></textarea>
+                </div>
+                <div class="slider-btns reviews-form__slider-btns">
+                    <a href="" class="main-btn smi__btn">Отправить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+    <!-- Станртный низ -->
+    <div style="margin-top: 0;" class="form_wrap form-wrap-2 reviews-form">
+        <section class="main-form">
+            <div class="container">
+                <div class="main-form__content">
+                    <div class="main-form__title main-title">Задайте вопрос специалисту</div>
+                    <div class="main-form__descr">Заполните, пожалуйста форму и наш мпециалист свяжется с вами в течение 15 мин</div>
+                    <form action="" class="main-form__form">
+                        <input type="text" class="main-input main-form__input" name="name" placeholder="Ваше имя">
+                        <input type="text" class="main-input main-form__input" name="name" placeholder="Ваш телефон">
+                        <input type="submit" class="main-btn main-form__btn" value="перезвоните мне">
+        
+                        <img class="main-form__fon-logo" src="img/ornament.png" alt="">
+                        <div class="main-form__top-logo-wrap">
+                            <img class="main-form__top-logo" src="img/news-top.png" alt="">
+                            <img class="main-form__top-logo-mob" src="img/news-top-mob.png" alt="">
+                        </div>
+                    </form>
+        
+                    <img class="puf-3-1" src="img/puf-2/item-1.png" alt="">
+                    <img class="puf-3-2" src="img/puf-2/item-2.png" alt="">
+                    <!-- <img class="puf-2-3" src="img/puf-2/item-3.png" alt=""> -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="map">
+        <div class="container map__container">
+            <h2 class="main-title map__title">как нас найти?</h2>
+            <div class="map__content">
+                <div class="map__wrapper">
+                    <div class="top-border-block map__block">
+                        <div class="wrap-map-card">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A32be1a0c9ecb2f7ed62b3e550813187a5a31143057a7e0a0c16d6ac67f8e239b&amp;width=100%25&amp;height=514&amp;lang=ru_RU&amp;scroll=true"></script>
+        
+                        </div>
+                        <img class="desription-content__romb-1" src="img/romb.svg" alt="">
+                        <img class="desription-content__romb-2" src="img/romb.svg" alt="">
+                        <img class="desription-content__coner-1" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-2" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-3" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-4" src="img/coner.svg" alt="">
+                    </div>
+                    <div class="map__content-wrap">
+                        <div class="map__item">
+                            <div class="map__icon"><img src="img/marker.svg" alt=""></div>
+                            <div class="map__text-wrap">
+                                <div class="map__mini-title">Наш офис</div>
+                                <div class="map__text">191036, г. Санкт-Петербург, Лиговский пр. д.10/118,<br> оф. 4133  (Офисный центр гостиницы «Октябрьская»).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__item">
+                            <div class="map__icon"><img src="img/marker.svg" alt=""></div>
+                            <div class="map__text-wrap">
+                                <div class="map__mini-title">Офис экспертизы</div>
+                                <div class="map__text">Офис психолого-педагогической и судебно-медицинской <br> экспертиз в СПб:
+                                    ул. Набережная реки Смоленки, 33
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map__footer">
+                <div class="map__icons">
+                    <a class="" href="#"><img src="img/icon/insta.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/twiter.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/facebook.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/vk.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/youtube.svg" alt=""></a>
+                </div>
+                <div class="map__contakts">
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (911) 953-14-93</a>
+                        <div class="contact-block__content">
+                            Звонить в нерабочее время
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (812) 340-00-35</a>
+                        <div class="contact-block__content">
+                            Санкт-Петербург <br>Пн-пт 9:00 до 18:30
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (800) 222-53-04</a>
+                        <div class="contact-block__content">
+                            По России <br>Пн-пт 7:00 до 21:00
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">sineo-expert@mail.ru</a>
+                        <div class="contact-block__content">
+                            Электронная почта <br>24/7
+                        </div> 
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="">Copyright © ООО АНО «Санкт-Петербургский институт независимой экспертизы и оценки»<br>
+                1999 - 2019 Все права защищены
+            </p>
+                
+            <p class="">Данный сайт носит исключительно информационный характер и не является публичной офертой,<br>
+                определяемой положениями статьи 437 Гражданского кодекса РФ 
+            </p>
+        </div>
+    </footer>
+    
+
+    <!-- scripts -->
+    <script src="js/main.min.js"></script>
+    <script src="js/menu.js"></script> 
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/custome.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- browser settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- open graph -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="://absolute/path/to/image.jpg" />
+    <meta property="og:type" content="website" /> <!-- or "article" -->
+    <meta property="og:url" content="://absolute/path/to/this/page/" />
+    <!-- seo -->
+    <link rel="canonical" href="://absolute/path/to/this/page/">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+    <!-- conditions -->
+    <!--[if IE]><link href="ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>СИНЕЭ</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage" role="document">
+    
+
+    <header class="header header-page" style="background-image: url(img/header-page.jpg);">
+        
+            <div class="header__mob-wrap">
+                <div class="container header__header">
+                    <div class="header__top">
+                        <div class="header__logo logo">
+                            <img class="logo_images" src="img/logo.png" alt="">
+                            <div class="logo__text">
+                                <img class="logo-desctop" src="img/logo_text.svg" alt="">
+                                <img src="img/logo-mini.svg" alt="" class="logo-mini">
+                            </div>
+                        </div>
+            
+                        <div class="header__tools tools">
+                            <div class="header__menu-btn menu-btn header__tools-item">
+                                <span></span>
+                            </div>
+                            <div class="tools__siti tools__item header__tools-item select-js">
+                                <div class="tools__text">Санкт-Петербург</div>
+                                <div class="tools__arr">
+                                    <img src="img/arrow.svg" >
+                                </div>
+            
+                                <div class="tools__sub-items select-sub-js">
+                                    <div class="main-input tools__sub-item">
+                                        <div class="tools__text">Россия</div>
+                                        <div class="tools__arr">
+                                            <img src="img/arrow.svg" >
+                                        </div>
+                                    </div>
+                                    <div class="main-input tools__sub-item">
+                                        <div class="tools__text">Москва</div>
+                                        <div class="tools__arr">
+                                            <img src="img/arrow.svg" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tools__search tools__item search-header-js">
+                                <input type="text" class="no-visible">
+                                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.88888 19.0756C14.7981 19.0756 18.7778 15.0959 18.7778 10.1867C18.7778 5.27754 14.7981 1.29785 9.88888 1.29785C4.97969 1.29785 1 5.27754 1 10.1867C1 15.0959 4.97969 19.0756 9.88888 19.0756Z" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21 21.2977L16.1666 16.4644" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+            
+                            <input class="main-input tools__input-search" placeholder="Судебная экспертиза">
+                        </div>
+            
+                        <div class="header__contacts">
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">+7 (812) 340-00-35</a>
+                                <div class="contact-block__content">
+                                    Санкт-Петербург Пн-пт 9:00 до 18:30
+                                </div> 
+                            </div>
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">+7 (800) 222-53-04</a>
+                                <div class="contact-block__content">
+                                    По России <br> Пн-пт 7:00 до 21:00
+                                </div>
+                            </div>
+                            <div class="contact-block header__contact-block">
+                                <a href="#" class="contact-block__title">info@inexpert.ru</a>
+                                <div class="contact-block__content">
+                                    Электронная почта <br> 24/7
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav header__nav">
+                    <div class="container nav__container">
+                        <div class="cloze nav__cloze">
+                            <span></span>
+                        </div>
+                        <ul class="nav__list header__nav-list">
+                            <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Новости</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Лицензии</a></li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Услуги
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.28662 5.29785L5.28662 1.29785L9.28662 5.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.28662 9.29785V1.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <ul class="nav__sub-list">
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Строительно-техническая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Стоматологическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психологическая экспертиза (педагогическая)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психиатрическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Судебно-медицинская экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза качества медицинской помощи</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психофизиологическая экспертиза (полиграф)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза автомобиля после дтп</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Транспортная экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Лингвистическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Почерковедческая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Пожарно-техническая экспертиза</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item"><a class="nav__link" href="#">
+                                    Организации
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.28662 5.29785L5.28662 1.29785L9.28662 5.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.28662 9.29785V1.29785" stroke="#092640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                                <ul class="nav__sub-list">
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Строительно-техническая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Стоматологическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психологическая экспертиза (педагогическая)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психиатрическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Судебно-медицинская экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза качества медицинской помощи</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Психофизиологическая экспертиза (полиграф)</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Экспертиза автомобиля после дтп</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Транспортная экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Лингвистическая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Почерковедческая экспертиза</a></li>
+                                    <li class="nav__sub-item"><a class="nav__sub-link" href="#">Пожарно-техническая экспертиза</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item"><a class="nav__link" href="#">Прайс</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                        </ul>
+                        <div class="nav__activ activ-menu">
+                            <div class="activ-menu__content">
+                                <div class="activ-menu__item activ-menu__top">
+                                    <div class="activ-menu__left"></div>
+                                    <div class="activ-menu__cercle"></div>
+                                    <div class="activ-menu__right"></div>
+                                </div>
+                                <div class="activ-menu__item activ-menu__bottom">
+                                    <div class="activ-menu__left"></div>
+                                    <div class="activ-menu__cercle"></div>
+                                    <div class="activ-menu__right"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="bread">
+                <div class="container bread__container">
+                    <a class="bread__item" href="#">Главная</a>
+                    <span>></span>
+                    <a class="bread__item" href="#" aria-disabled="true" >Текущая страница</a>
+                </div>
+            </div>
+        <div class="researchers-text">
+            <div class="container">
+                <h1 class="main-title researchers-text__title">
+                    Научно-исследовательская деятельность
+                </h1>
+                <div class="researchers-text__content">
+                    <p>Помимо <span>экспертной и оценочной деятельности</span> , наши ведущие сотрудники активно занимаются научно-исследовательской работой.</p>
+                    <p>В ООО, АНО <span>“Санкт-Петербургский институт независимой экспертизы и оценки”</span> регулярно издаются новейшие монографии, написанные нашими экспертами и оценщиками, проводятся тематические консультации, лекции и семинары для сотрудников нашей организации, других экспертных компаний, адвокатов и иных заинтересованных лиц. Мы исследуем, анализируем и передаем передовой мировой опыт в области оценочной и экспертной деятельности.</p>
+                    <p>Наша организация является базой для написания ряда кандидатских и докторских диссертаций. Мы шагаем в ногу со временем.</p>
+                    <p>Мы заинтересованы в постоянном повышении профессионального уровня наших экспертов и оценщиков. Ниже представлены учебные пособия, написанные нашими сотрудниками за последние годы.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <section class="researchers-table">
+            <div class="container">
+                <h2 class="researchers-table__mini-title">
+                    Семинары в судах Санкт-Петербурга и Лен области, а также в институте Адвокатуры
+                </h2>
+                <div class="researchers-table__content js-table-slider">
+                    <div class="researchers-table__row researchers-table__header">
+                        <div class="researchers-table__row-item">Название семинара</div>
+                        <div class="researchers-table__row-item">место проведения</div>
+                        <div class="researchers-table__row-item">Адрес </div>
+                        <div class="researchers-table__row-item">дата</div>
+                    </div>
+                    <div class="researchers-table__row">
+                        <div class="researchers-table__row-item">Процессуальные и организационные основы проведения судебной</div>
+                        <div class="researchers-table__row-item">Офисный центр гостиницы “Октябрьская”</div>
+                        <div class="researchers-table__row-item">Санкт-Петербург, Лиговский пр. д. 10/118, офис 4133</div>
+                        <div class="researchers-table__row-item">20.10.2020</div>
+                    </div>
+                    <div class="researchers-table__row">
+                        <div class="researchers-table__row-item">Семинар по проведению судебной психолого-педагогической</div>
+                        <div class="researchers-table__row-item">Офисный центр гостиницы “Октябрьская”</div>
+                        <div class="researchers-table__row-item">Санкт-Петербург, Лиговский пр. д. 10/118, офис 4133</div>
+                        <div class="researchers-table__row-item">20.10.2020</div>
+                    </div>
+                    <div class="researchers-table__row">
+                        <div class="researchers-table__row-item">Семинар по проведению посмертной судебной психиатрической</div>
+                        <div class="researchers-table__row-item">Офисный центр гостиницы “Октябрьская”</div>
+                        <div class="researchers-table__row-item">Санкт-Петербург, Лиговский пр. д. 10/118, офис 4133</div>
+                        <div class="researchers-table__row-item">20.10.2020</div>
+                    </div>
+                    <div class="researchers-table__row">
+                        <div class="researchers-table__row-item">Проведение судебно-медицинской экспертизы</div>
+                        <div class="researchers-table__row-item">Офисный центр гостиницы “Октябрьская”</div>
+                        <div class="researchers-table__row-item">Санкт-Петербург, Лиговский пр. д. 10/118, офис 4133</div>
+                        <div class="researchers-table__row-item">20.10.2020</div>
+                    </div>
+                    <div class="researchers-table__row">
+                        <div class="researchers-table__row-item">Особенности проведения судебной оценочной экспертизы в</div>
+                        <div class="researchers-table__row-item">Офисный центр гостиницы “Октябрьская”</div>
+                        <div class="researchers-table__row-item">Санкт-Петербург, Лиговский пр. д. 10/118, офис 4133</div>
+                        <div class="researchers-table__row-item">20.10.2020</div>
+                    </div>
+                </div>
+                <div class="slider-btns researchers-table__slider-btns">
+                    <div class="researchers-tablePrevBtn slider-btn">
+                        <img style="transform:rotate(180deg)" src="img/slider-btn.svg" alt="">
+                    </div>
+                    <a href="" class="main-btn researchers-table__btn">Подробне</a>
+                    <div class="researchers-tableNextBtn slider-btn">
+                        <img src="img/slider-btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <section class="researchers-book">
+        <div class="container">
+            <div class="researchers-book__content">
+                <div class="researchers-book__item-wrap">
+                    <div class="researchers-book__mini-titl">
+                        Учебные пособия в области <br>
+                        <span>строительно-технической экспертизы</span>
+                    </div>
+                    <div class="afisha researchers-book__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-1.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Составление сметной документации в строительстве</div>
+                    </div>
+                    <div class="afisha researchers-book__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-2.png" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического обслуживания жилых и общественных зданий</div>
+                    </div>
+                </div>
+                <div class="researchers-book__item-wrap">
+                    <div class="researchers-book__mini-titl">
+                        <span>Авиационная экспертиза</span> — <br>учебное пособие
+                    </div>
+                    <div class="afisha researchers-book__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-3.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Составление сметной документации в строительстве</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="researchers-book-slider">
+        <div class="container">
+            <div class="researchers-book-slider__section-wrap">
+                <div class="researchers-book-slider__mini-title">Учебные пособия в области экономики, бизнеса и оценки</div>
+                <div class="researchers-book-slider__slider owl-carousel" id="book-slider">
+    
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-4.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+    
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-5.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-6.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-7.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-8.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                </div>
+                <div class="slider-btns researchers-book-slider__slider-btns">
+                    <div class="researchers-book-sliderPrevBtn slider-btn">
+                        <img style="transform:rotate(180deg)" src="img/slider-btn.svg" alt="">
+                    </div>
+                    <a href="" class="main-btn smi__btn">все статьи в сми</a>
+                    <div class="researchers-book-sliderNextBtn slider-btn">
+                        <img src="img/slider-btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="researchers-book-slider">
+        <div class="container">
+            <div class="researchers-book-slider__section-wrap">
+                <div class="researchers-book-slider__mini-title">Учебные пособия в области экономики, бизнеса и оценки</div>
+                <div class="researchers-book-slider__slider owl-carousel" id="book-slider-2">
+    
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-4.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+    
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-5.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-6.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-7.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                    <div class="afisha researchers-book-slider__item">
+                        <div class="afisha__image researchers-book__image">
+                            <img class="afisha__decor-1" src="img/decor.svg" alt="">
+                            <img class="afisha__decor-2" src="img/decor.svg" alt="">
+                            <img src="img/book-8.jpg" class="afisha__img" alt="">
+                        </div>
+                        <div class="afisha__text">Организация и проведение реконструкции, ремонта и технического</div>
+                    </div>
+                </div>
+                <div class="slider-btns researchers-book-slider__slider-btns">
+                    <div class="researchers-book-sliderPrevBtn-2 slider-btn">
+                        <img style="transform:rotate(180deg)" src="img/slider-btn.svg" alt="">
+                    </div>
+                    <a href="" class="main-btn smi__btn">все статьи в сми</a>
+                    <div class="researchers-book-sliderNextBtn-2 slider-btn">
+                        <img src="img/slider-btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Станртный низ -->
+    <div class="form_wrap form-wrap-2 researchers-form">
+        <section class="main-form">
+            <div class="container">
+                <div class="main-form__content">
+                    <div class="main-form__title main-title">Задайте вопрос специалисту</div>
+                    <div class="main-form__descr">Заполните, пожалуйста форму и наш мпециалист свяжется с вами в течение 15 мин</div>
+                    <form action="" class="main-form__form">
+                        <input type="text" class="main-input main-form__input" name="name" placeholder="Ваше имя">
+                        <input type="text" class="main-input main-form__input" name="name" placeholder="Ваш телефон">
+                        <input type="submit" class="main-btn main-form__btn" value="перезвоните мне">
+        
+                        <img class="main-form__fon-logo" src="img/ornament.png" alt="">
+                        <div class="main-form__top-logo-wrap">
+                            <img class="main-form__top-logo" src="img/news-top.png" alt="">
+                            <img class="main-form__top-logo-mob" src="img/news-top-mob.png" alt="">
+                        </div>
+                    </form>
+        
+                    <img class="puf-3-1" src="img/puf-2/item-1.png" alt="">
+                    <img class="puf-3-2" src="img/puf-2/item-2.png" alt="">
+                    <!-- <img class="puf-2-3" src="img/puf-2/item-3.png" alt=""> -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="map">
+        <div class="container map__container">
+            <h2 class="main-title map__title">как нас найти?</h2>
+            <div class="map__content">
+                <div class="map__wrapper">
+                    <div class="top-border-block map__block">
+                        <div class="wrap-map-card">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A32be1a0c9ecb2f7ed62b3e550813187a5a31143057a7e0a0c16d6ac67f8e239b&amp;width=100%25&amp;height=514&amp;lang=ru_RU&amp;scroll=true"></script>
+        
+                        </div>
+                        <img class="desription-content__romb-1" src="img/romb.svg" alt="">
+                        <img class="desription-content__romb-2" src="img/romb.svg" alt="">
+                        <img class="desription-content__coner-1" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-2" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-3" src="img/coner.svg" alt="">
+                        <img class="desription-content__coner-4" src="img/coner.svg" alt="">
+                    </div>
+                    <div class="map__content-wrap">
+                        <div class="map__item">
+                            <div class="map__icon"><img src="img/marker.svg" alt=""></div>
+                            <div class="map__text-wrap">
+                                <div class="map__mini-title">Наш офис</div>
+                                <div class="map__text">191036, г. Санкт-Петербург, Лиговский пр. д.10/118,<br> оф. 4133  (Офисный центр гостиницы «Октябрьская»).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__item">
+                            <div class="map__icon"><img src="img/marker.svg" alt=""></div>
+                            <div class="map__text-wrap">
+                                <div class="map__mini-title">Офис экспертизы</div>
+                                <div class="map__text">Офис психолого-педагогической и судебно-медицинской <br> экспертиз в СПб:
+                                    ул. Набережная реки Смоленки, 33
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map__footer">
+                <div class="map__icons">
+                    <a class="" href="#"><img src="img/icon/insta.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/twiter.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/facebook.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/vk.svg" alt=""></a>
+                    <a class="" href="#"><img src="img/icon/youtube.svg" alt=""></a>
+                </div>
+                <div class="map__contakts">
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (911) 953-14-93</a>
+                        <div class="contact-block__content">
+                            Звонить в нерабочее время
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (812) 340-00-35</a>
+                        <div class="contact-block__content">
+                            Санкт-Петербург <br>Пн-пт 9:00 до 18:30
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">+7 (800) 222-53-04</a>
+                        <div class="contact-block__content">
+                            По России <br>Пн-пт 7:00 до 21:00
+                        </div> 
+                    </div>
+    
+                    <div class="contact-block map__contact-block">
+                        <a href="#" class="contact-block__title">sineo-expert@mail.ru</a>
+                        <div class="contact-block__content">
+                            Электронная почта <br>24/7
+                        </div> 
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="">Copyright © ООО АНО «Санкт-Петербургский институт независимой экспертизы и оценки»<br>
+                1999 - 2019 Все права защищены
+            </p>
+                
+            <p class="">Данный сайт носит исключительно информационный характер и не является публичной офертой,<br>
+                определяемой положениями статьи 437 Гражданского кодекса РФ 
+            </p>
+        </div>
+    </footer>
+    
+
+    <!-- scripts -->
+    <script src="js/main.min.js"></script>
+    <script src="js/menu.js"></script> 
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/custome.js"></script>
+
+</body>
+</html>
